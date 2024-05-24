@@ -11,6 +11,12 @@ public:
       std::cout << "___ Shape constructor called ___" << std::endl;
    }
 
+   Shape(double size)
+       : m_width(size), m_height(size)
+   {
+      std::cout << "___ Shape constructor called ___" << std::endl;
+   }
+
    virtual ~Shape() // virtual destructor, damit der Destruktor von den abgeleiteten Klassen aufgerufen werden kann
    {
       std::cout << "___ Shape destructor called ___" << std::endl;
@@ -61,6 +67,16 @@ public:
    {
    }
 
+   Rectangle(double size) // überladener Konstruktor
+       : Shape(size)
+   {
+   }
+
+   ~Rectangle() // Destruktor
+   {
+      std::cout << "___ Rectangle destructor called ___" << std::endl;
+   }
+
    double getArea() override // override, damit wird gekennzeichnet, dass die Methode von der Basisklasse überschrieben wird
    {
       return (m_width * m_height);
@@ -81,6 +97,16 @@ public:
    {
    }
 
+   Triangle(double size) // überladener Konstruktor
+       : Shape(size)
+   {
+   }
+
+   ~Triangle() // Destruktor
+   {
+      std::cout << "___ Triangle destructor called ___" << std::endl;
+   }
+
    double getArea() override // override, damit wird gekennzeichnet, dass die Methode von der Basisklasse überschrieben wird
    {
       return (m_width * m_height * 0.5);
@@ -94,14 +120,19 @@ public:
 
 int main()
 {
-   Rectangle rectangle(5.0, 7.0);
+   Rectangle rectangle(5.1, 7.2);
    rectangle.printArea();
    std::cout << "--- is calculated based on values: " << rectangle.getHeigth() << " and " << rectangle.getWidth() << std::endl;
    std::cout << "------------------------------------------" << std::endl;
 
-   Triangle triangle(5.0, 7.0);
+   Triangle triangle(5.1, 7.2);
    triangle.printArea();
    std::cout << "--- is calculated based on values: " << triangle.getHeigth() << " and " << triangle.getWidth() << std::endl;
+   std::cout << "------------------------------------------" << std::endl;
+
+   Triangle triangle2(5.1);
+   triangle2.printArea();
+   std::cout << "--- is calculated based on values: " << triangle2.getHeigth() << " and " << triangle2.getWidth() << std::endl;
    std::cout << "------------------------------------------" << std::endl;
 
    return 0;

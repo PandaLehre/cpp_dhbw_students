@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/GITlehre/cpp_dhbw_students/2_Objektorientierung/23_Polymorphismus/233_virtualDestructor",
-      "program": "c:/GITlehre/cpp_dhbw_students/2_Objektorientierung/23_Polymorphismus/233_virtualDestructor/build/Debug/outDebug",
+      "cwd": "c:/GITlehre/cpp_dhbw_students/2_Objektorientierung/23_Polymorphismus/232_override",
+      "program": "c:/GITlehre/cpp_dhbw_students/2_Objektorientierung/23_Polymorphismus/232_override/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
