@@ -34,3 +34,6 @@ int main()
 
    return 0;
 }
+
+// Frage: Welcher Output wird erzeugt?
+// Frage: Welcher Output wird erzeugt wenn die letzte Funktion auskommentiert wird?

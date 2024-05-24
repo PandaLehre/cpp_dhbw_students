@@ -18,8 +18,7 @@ class B
 {
 public:
    B()
-   : m_a1()
-   , m_a2(2)
+       : m_a1(), m_a2(2)
    {
       std::cout << "B\n";
    }
@@ -31,8 +30,10 @@ private:
 
 int main()
 {
-   std::cout << "--- this is line 34" <<std::endl;
+   std::cout << "--- this is line 34" << std::endl;
    B();
    std::cout << "--- this is line 36" << std::endl;
    return 0;
 }
+
+// Frage: Was ist der Output dieses Programms?
