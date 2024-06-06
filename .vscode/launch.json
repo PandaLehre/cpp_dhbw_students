@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/GITlehre/cpp_dhbw_students/2_Objektorientierung/23_Polymorphismus/232_override",
-      "program": "c:/GITlehre/cpp_dhbw_students/2_Objektorientierung/23_Polymorphismus/232_override/build/Debug/outDebug",
+      "cwd": "c:/GITlehre/cpp_dhbw_students/3_Basics_und_Vertiefungen_Cpp/311_Keywords/Initialisierung_und_auto",
+      "program": "c:/GITlehre/cpp_dhbw_students/3_Basics_und_Vertiefungen_Cpp/311_Keywords/Initialisierung_und_auto/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

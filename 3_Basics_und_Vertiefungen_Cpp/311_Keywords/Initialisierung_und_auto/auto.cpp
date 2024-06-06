@@ -22,7 +22,7 @@ void initAndPrint(double val, int val2)
 
 int main()
 {
-   auto doubleAuto{1.1};  // double
+   auto doubleAuto{7.9};  // double
    auto intAuto{1025};     // int
    // auto c;              // error
    // c = intAuto;         // error

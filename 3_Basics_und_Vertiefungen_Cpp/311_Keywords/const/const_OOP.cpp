@@ -22,7 +22,7 @@ public:
     void myMethod2(MyClass &inputClass)
     {
         inputClass = MyClass{};               // Zuweisung nicht möglich, wenn inputClass const ist
-        inputClass.methodThatChangesMemers(); // Methodenaufrauf nicht möglich, wenn inputClass const ist
+        inputClass.methodThatChangesMembers(); // Methodenaufrauf nicht möglich, wenn inputClass const ist
         m_value = 10;                         // Zuweisung nicht möglich, wenn myMethod2 const ist
         this->m_value = 20;                   // Zuweisung nicht möglich, wemm myMethod2 const ist
         inputClass.constMethod();             // Aufruf möglich
@@ -32,17 +32,17 @@ public:
 private:
     int m_value;
 
-    void methodThatChangesMemers()
+    void methodThatChangesMembers()
     {
         m_value = 0;
     }
 
-    void constMethod()
+    void constMethod() const
     {
         std::cout << "constMethod" << std::endl;
     }
 
-    void printValue()
+    void printValue() const
     {
         std::cout << "m_value = " << m_value << std::endl;
     }
