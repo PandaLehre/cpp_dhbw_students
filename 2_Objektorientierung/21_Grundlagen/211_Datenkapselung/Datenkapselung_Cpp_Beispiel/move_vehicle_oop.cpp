@@ -9,6 +9,17 @@ struct Position
 class Vehicle
 {
 public:
+
+   Vehicle()
+   {
+      std::cout << "called constructor" << std::endl;
+   }
+
+   ~Vehicle()
+   {
+      std::cout << "called destructor" << std::endl;
+   }
+
    void move(int seconds)
    {
       m_position.x = m_position.x + seconds * m_speed;
