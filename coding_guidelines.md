@@ -1,11 +1,13 @@
 # Coding Guidelines Documentation
 
 ## Overview
+
 This document provides an overview of the coding guidelines for `.cpp` and `.hpp` files. These guidelines ensure consistent, readable, and maintainable C++ code.
 
 ---
 
 ## General Coding Guidelines
+
 1. **Formatting**:
    - Use consistent spacing and indentation.
    - Avoid unnecessary spaces in expressions and control structures.
@@ -25,6 +27,7 @@ This document provides an overview of the coding guidelines for `.cpp` and `.hpp
 ## Implementation File Structure (`.cpp`)
 
 ### Include Structure
+
 Organize includes into three blocks:
 
 ```cpp
@@ -39,7 +42,6 @@ Organize includes into three blocks:
 ```
 
 ### Namespace Definition
-Namespaces should be defined at the beginning of the implementation file. Use the same namespace as in the header file.
 
 ```cpp
 namespace ServiceFunctions
@@ -70,12 +72,10 @@ namespace ServiceFunctions
 } // end namespace ServiceFunctions
 ```
 
-
-
-
 ## Header File Structure (`.hpp`)
 
 ### Include Guards
+
 Use include guards to prevent multiple inclusions of the same header file.
 
 ```cpp
@@ -84,6 +84,7 @@ Use include guards to prevent multiple inclusions of the same header file.
 ```
 
 ### Namespace Declaration
+
 Namespaces should be declared at the beginning of the header file. Use the same namespace as in the implementation file.
 
 ```cpp
@@ -131,10 +132,6 @@ private:
 };
 
 }  // end namespace ServiceFunctions
-
 ```
----
----
----
 
 This document serves as a reference for writing clean and maintainable C++ code.

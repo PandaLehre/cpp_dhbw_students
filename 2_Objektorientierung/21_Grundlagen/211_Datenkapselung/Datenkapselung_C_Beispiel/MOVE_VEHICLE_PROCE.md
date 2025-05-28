@@ -120,14 +120,3 @@ int main()
 
 ### Speicherverwaltung
 - In diesem Programm wird kein dynamischer Speicher verwendet. Der Compiler verwaltet den Speicher für die Strukturen `Position` und `Vehicle` automatisch.
-
----
-
-## Fazit
-
-Dieses Programm demonstriert die Grundlagen der Datenkapselung und der Verwendung von Strukturen in C++:
-- Definition und Verwendung von Strukturen (`Position` und `Vehicle`).
-- Implementierung einer Funktion (`move`), die auf einer Struktur arbeitet.
-- Einfache Simulation einer Fahrzeugbewegung.
-
-Es ist ein idealer Ausgangspunkt, um die Grundlagen der strukturierten Programmierung in C++ zu erlernen.

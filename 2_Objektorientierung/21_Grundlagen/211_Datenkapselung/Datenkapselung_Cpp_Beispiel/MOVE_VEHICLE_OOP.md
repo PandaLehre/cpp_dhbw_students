@@ -125,13 +125,3 @@ int main()
 ### Speicherverwaltung
 - In diesem Programm wird kein dynamischer Speicher verwendet. Der Compiler verwaltet den Speicher für die Klasse `Vehicle` und die Struktur `Position` automatisch.
 
----
-
-## Fazit
-
-Dieses Programm demonstriert die Grundlagen der objektorientierten Programmierung in C++:
-- Definition und Verwendung von Klassen und Strukturen.
-- Implementierung von Methoden, die auf den Daten der Klasse arbeiten.
-- Einfache Simulation einer Fahrzeugbewegung.
-
-Es ist ein idealer Ausgangspunkt, um die Prinzipien der OOP in C++ zu erlernen.
